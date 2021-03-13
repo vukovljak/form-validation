@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css">
+    <title>Form Input</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="message">Create Account</h1>
+        <form id="form">
+            <div>
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+                <i class="fas fa-check-circle"></i>
+			    <i class="fas fa-exclamation-circle"></i>
+                <small class="msg"></small>
+            </div>
+            <div>
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+                <i class="fas fa-check-circle"></i>
+			    <i class="fas fa-exclamation-circle"></i>
+                <small class="msg"></small>
+            </div>
+            <div>
+                <label for="emai">Email</label>
+                <input type="email" name="email" id="email">
+                <i class="fas fa-check-circle"></i>
+			    <i class="fas fa-exclamation-circle"></i>
+                <small class="msg"></small>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+                <i class="fas fa-check-circle"></i>
+			    <i class="fas fa-exclamation-circle"></i>
+                <small class="msg"></small>
+            </div>
+            <button type="submit">Submit</button>            
+        </form>
+        <div id="home-btn">
+            <a href="#">Home Page</a>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
